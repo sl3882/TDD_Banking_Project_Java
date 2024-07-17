@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckingTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-17T19:58:51" hostname="SCOTT" time="0.005">
+  <properties/>
+  <testcase name="balance_300_decreases_by_the_amount_withdrawn_200()" classname="CheckingTest" time="0.002"/>
+  <testcase name="balance_increases_by_the_amount_deposited_200()" classname="CheckingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

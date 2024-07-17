@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-07-17T19:58:51" hostname="SCOTT" time="0.01">
+  <properties/>
+  <testcase name="test_add_two_account()" classname="BankTest" time="0.001"/>
+  <testcase name="withdrawing_300_twice_by_account_id()" classname="BankTest" time="0.001"/>
+  <testcase name="deposit_300_twice_by_account_id()" classname="BankTest" time="0.002"/>
+  <testcase name="retrieving_1_account_from_the_bank()" classname="BankTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
