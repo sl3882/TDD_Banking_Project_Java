@@ -5,12 +5,12 @@ public abstract class Account {
 	private double apr;
 	private double balance;
 
-	public Account(double apr) {
+	protected Account(double apr) {
 		this.apr = apr;
 		this.id = nextId++;
 	}
 
-	public Account(double apr, double balance) {
+	protected Account(double apr, double balance) {
 		this.apr = apr;
 		this.balance = balance;
 		this.id = nextId++;
