@@ -1,8 +1,8 @@
-public abstract class Account {
+public class Account {
 
 	private static int nextId = 10000000;
-	private int id;
-	private double apr;
+	private final int id;
+	private final double apr;
 	private double balance;
 
 	protected Account(double apr) {
