@@ -8,7 +8,6 @@ public class CommandValidatorTest {
 	CommandValidator commandValidator;
 	private Account checking;
 	private Account saving;
-
 	private Bank myBank;
 
 	@BeforeEach
@@ -22,8 +21,8 @@ public class CommandValidatorTest {
 
 	@Test
 	void valid_command() {
-		boolean actual = commandValidator.validate("transfer 415 from checking to saving");
-		assertTrue(actual);
+		boolean actual = commandValidator.validate(415);
+		assertFalse(actual);
 	}
 
 	@Test
@@ -33,12 +32,17 @@ public class CommandValidatorTest {
 		checking.deposit(500);
 		int fromAccountID = checking.getId();
 		int toAccountID = saving.getId();
-
 		myBank.transferByID(fromAccountID, toAccountID, 415);
-
-		boolean actual = commandValidator.validate("transfer 415 from checking to saving");
-		assertFalse(actual);
-
+		boolean actual = commandValidator.validate(415);
+		assertTrue(actual);
 	}
 
+	@Test
+	void transfer_money_from_account_the_balance_is_not_enough() {
+		Account checking2 = new Account(0);
+		myBank.addAccount(checking2);
+		checking2.deposit(15);
+		boolean actual = commandValidator.validate(15);
+		assertTrue(actual);
+	}
 }

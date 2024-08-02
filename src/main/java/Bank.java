@@ -1,60 +1,55 @@
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Bank {
-	public List<Account> myBank;
+	private Map<Integer, Account> accounts;
 
 	public Bank() {
-		myBank = new ArrayList<>();
+		accounts = new HashMap<>();
 	}
 
 	public void addAccount(Account account) {
-		myBank.add(account);
+		accounts.put(account.getId(), account);
 	}
 
-	public Account retrieving(int index) {
-		return myBank.get(index);
+	public Account getAccountById(int id) {
+		return accounts.get(id);
 	}
 
-	public void depositById(int id, double money) {
-		for (Account account : myBank) {
-			if (account.getId() == id) {
-				account.deposit(money);
-			}
+	public void depositById(int id, double amount) {
+		Account account = accounts.get(id);
+		if (account != null) {
+			account.deposit(amount);
 		}
 	}
 
-	public void withdrawById(int id, double money) {
-		for (Account account : myBank) {
-			if (account.getId() == id) {
-				account.withdraw(money);
-			}
+	public void withdrawById(int id, double amount) {
+		Account account = accounts.get(id);
+		if (account != null) {
+			account.withdraw(amount);
 		}
 	}
 
-	public void transferByID(int fromID, int toID, double money) {
-		for (Account fromAccount : myBank) {
-			if (fromAccount.getId() == fromID) {
-				fromAccount.withdraw(money);
-			}
-		}
-
-		for (Account toAccount : myBank) {
-			if (toAccount.getId() == toID) {
-				toAccount.deposit(money);
-			}
-
+	public void transferByID(int fromId, int toId, double amount) {
+		Account fromAccount = accounts.get(fromId);
+		Account toAccount = accounts.get(toId);
+		if (fromAccount != null && toAccount != null && fromAccount.getBalance() >= amount) {
+			fromAccount.withdraw(amount);
+			toAccount.deposit(amount);
 		}
 	}
 
-	public boolean savingAccountBalance415(double balance) {
-		for (Account account : myBank) {
-			if (account.getBalance() == balance) {
+	public boolean isAccountBalanceEqual(double amount) {
+		for (Account account : accounts.values()) {
+			if (account.getBalance() == amount) {
 				return true;
 			}
-
 		}
 		return false;
 	}
 
+	public int getNumberOfAccounts() {
+		return accounts.size();
+	}
 }

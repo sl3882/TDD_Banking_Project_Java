@@ -1,3 +1,4 @@
+
 public class CommandValidator {
 	private final Bank myBank;
 
@@ -5,11 +6,7 @@ public class CommandValidator {
 		this.myBank = myBank;
 	}
 
-	public boolean validate(String s) {
-		if (myBank.savingAccountBalance415(415)) {
-			return false;
-		}
-
-		return true;
+	public boolean validate(double amount) {
+		return myBank.isAccountBalanceEqual(amount);
 	}
 }
