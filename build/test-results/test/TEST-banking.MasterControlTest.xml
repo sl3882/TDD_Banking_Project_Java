@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.MasterControlTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-08-19T20:15:20" hostname="SCOTT" time="0.012">
+  <properties/>
+  <testcase name="invalid_to_create_accounts_with_same_ID()" classname="banking.MasterControlTest" time="0.005"/>
+  <testcase name="typo_in_create_command_is_invalid()" classname="banking.MasterControlTest" time="0.002"/>
+  <testcase name="typo_in_deposit_command_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="two_typo_commands_both_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.DepositValidatorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-08-19T20:15:20" hostname="SCOTT" time="0.044">
+  <properties/>
+  <testcase name="deposit_to_saving_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_checking_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_large_amount_to_savings_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_saving_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_to_checking_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_to_cd_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_to_checking_non_digit_amount_invalid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_large_amount_to_cd_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_to_checking_small_amount_multiple_times_valid()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_to_cd_small_amount_multiple_times_valid()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_cd_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_to_saving_non_digit_amount_invalid()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_large_amount_to_checking_account_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_to_savings_small_amount_multiple_times_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_to_cd_non_digit_amount_invalid()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
