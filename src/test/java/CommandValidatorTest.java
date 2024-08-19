@@ -18,6 +18,7 @@ public class CommandValidatorTest {
 		checking = new Account(0);
 		saving = new Account(0.03);
 		cd = new Account(0.02);
+
 	}
 
 	@Test
