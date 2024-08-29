@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.CreateAccountValidatorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-08-19T20:15:20" hostname="SCOTT" time="0.027">
+<testsuite name="banking.CreateAccountValidatorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-08-29T09:02:26" hostname="SCOTT" time="0.03">
   <properties/>
-  <testcase name="create_checking_apr_over_100_percent_invalid()" classname="banking.CreateAccountValidatorTest" time="0.003"/>
-  <testcase name="create_saving_with_valid_apr()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
-  <testcase name="create_cd_apr_over_100_percent_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
+  <testcase name="create_checking_apr_over_100_percent_invalid()" classname="banking.CreateAccountValidatorTest" time="0.002"/>
+  <testcase name="create_saving_with_valid_apr()" classname="banking.CreateAccountValidatorTest" time="0.002"/>
+  <testcase name="create_cd_apr_over_100_percent_invalid()" classname="banking.CreateAccountValidatorTest" time="0.003"/>
   <testcase name="create_saving_apr_over_100_percent_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
   <testcase name="create_checking_with_negative_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
-  <testcase name="create_saving_without_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.0"/>
+  <testcase name="create_saving_without_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.002"/>
   <testcase name="create_checking_without_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
-  <testcase name="create_cd_with_negative_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
+  <testcase name="create_cd_with_negative_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.002"/>
   <testcase name="create_cd_without_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
   <testcase name="create_cd_with_valid_apr()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
-  <testcase name="create_checking_with_valid_apr()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
-  <testcase name="create_saving_with_negative_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.002"/>
+  <testcase name="create_checking_with_valid_apr()" classname="banking.CreateAccountValidatorTest" time="0.0"/>
+  <testcase name="create_saving_with_negative_apr_invalid()" classname="banking.CreateAccountValidatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
