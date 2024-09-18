@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.DepositValidatorTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2024-08-29T09:02:26" hostname="SCOTT" time="0.019">
+<testsuite name="banking.DepositValidatorTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:37" hostname="SCOTT" time="0.041">
   <properties/>
-  <testcase name="deposit_to_saving_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_to_saving_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.003"/>
   <testcase name="deposit_checking_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.002"/>
-  <testcase name="deposit_cd_invalid()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_saving_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_cd_invalid()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_saving_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.002"/>
   <testcase name="deposit_large_amount_to_savings_invalid()" classname="banking.DepositValidatorTest" time="0.001"/>
-  <testcase name="deposit_to_checking_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_to_checking_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="deposit_to_cd_invalid_amount_special_characters()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="deposit_to_checking_non_digit_amount_invalid()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_just_below_boundary_amount_to_savings_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_checking_amount_zero_value_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_cd_invalid_amount_zero_value()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_just_below_boundary_amount_to_savings_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_checking_amount_zero_value_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_cd_invalid_amount_zero_value()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="deposit_to_checking_small_amount_multiple_times_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
-  <testcase name="deposit_500_to_checking_account_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_500_to_checking_account_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="deposit_cd_invalid_amount_negative_value()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="deposit_to_saving_non_digit_amount_invalid()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_at_boundary_amount_to_savings_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
-  <testcase name="deposit_500_to_savings_account_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_amount_to_checking_account_invalid()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_at_boundary_amount_to_savings_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_500_to_savings_account_valid()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="deposit_amount_to_checking_account_invalid()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="deposit_to_savings_small_amount_multiple_times_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="deposit_saving_amount_zero_value_valid()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="deposit_to_cd_non_digit_amount_invalid()" classname="banking.DepositValidatorTest" time="0.0"/>

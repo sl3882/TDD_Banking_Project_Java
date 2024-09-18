@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.PassTimeValidatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:38" hostname="SCOTT" time="0.013">
+  <properties/>
+  <testcase name="pass_time_with_invalid()" classname="banking.PassTimeValidatorTest" time="0.0"/>
+  <testcase name="pass_time_with_validCommand()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="pass_time_with_boundary_condition_minus_one_is_invalid()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="test_pass_time_invalid_command()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="passTime_with_month_60_is_valid()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="passTime_with_month_0_is_invalid()" classname="banking.PassTimeValidatorTest" time="0.002"/>
+  <testcase name="passTime_with_month_61_is_invalid()" classname="banking.PassTimeValidatorTest" time="0.0"/>
+  <testcase name="passTime_with_month_1_is_valid()" classname="banking.PassTimeValidatorTest" time="0.0"/>
+  <testcase name="passTime_with_month_30_is_valid()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

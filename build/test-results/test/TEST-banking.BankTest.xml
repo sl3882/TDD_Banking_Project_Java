@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.BankTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-08-29T09:02:25" hostname="SCOTT" time="0.029">
+<testsuite name="banking.BankTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:37" hostname="SCOTT" time="0.019">
   <properties/>
-  <testcase name="test_deduct_fee_for_balance_under_25()" classname="banking.BankTest" time="0.004"/>
+  <testcase name="test_deduct_fee_for_balance_under_25()" classname="banking.BankTest" time="0.001"/>
   <testcase name="test_calculate_interest_for_savings()" classname="banking.BankTest" time="0.001"/>
   <testcase name="withdrawing_300_twice_by_account_id()" classname="banking.BankTest" time="0.001"/>
   <testcase name="search_for_account_by_amount()" classname="banking.BankTest" time="0.001"/>
   <testcase name="test_add_two_accounts()" classname="banking.BankTest" time="0.0"/>
-  <testcase name="test_transfer_money_by_ID()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="test_transfer_money_by_ID()" classname="banking.BankTest" time="0.0"/>
   <testcase name="test_calculate_interest_for_checking()" classname="banking.BankTest" time="0.001"/>
   <testcase name="test_calculate_interest_for_cd()" classname="banking.BankTest" time="0.001"/>
   <testcase name="search_for_account_by_amount_not_exist()" classname="banking.BankTest" time="0.003"/>
   <testcase name="retrieving_1_account_from_the_myBank()" classname="banking.BankTest" time="0.001"/>
-  <testcase name="deposit_300_twice_by_account_id()" classname="banking.BankTest" time="0.002"/>
+  <testcase name="deposit_300_twice_by_account_id()" classname="banking.BankTest" time="0.001"/>
   <testcase name="test_no_fee_deducted_for_balance_25_or_more()" classname="banking.BankTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

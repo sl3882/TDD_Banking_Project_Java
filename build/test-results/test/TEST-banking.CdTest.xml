@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.CdTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-29T09:02:26" hostname="SCOTT" time="0.001">
+<testsuite name="banking.CdTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:37" hostname="SCOTT" time="0.001">
   <properties/>
   <testcase name="open_cd_with_1000_balance()" classname="banking.CdTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

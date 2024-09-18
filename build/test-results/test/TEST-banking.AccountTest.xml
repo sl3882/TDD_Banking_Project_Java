@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.AccountTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-08-29T09:02:25" hostname="SCOTT" time="0.078">
+<testsuite name="banking.AccountTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:37" hostname="SCOTT" time="0.03">
   <properties/>
-  <testcase name="open_checking_with_zero_balance()" classname="banking.AccountTest" time="0.043"/>
-  <testcase name="balance_100_decreases_by_the_amount_withdrawn_100()" classname="banking.AccountTest" time="0.002"/>
-  <testcase name="balance_increases_by_the_amount_deposited_300_twice()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="open_cd_with_1000_balance()" classname="banking.AccountTest" time="0.002"/>
+  <testcase name="open_checking_with_zero_balance()" classname="banking.AccountTest" time="0.016"/>
+  <testcase name="balance_100_decreases_by_the_amount_withdrawn_100()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="balance_increases_by_the_amount_deposited_300_twice()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="open_cd_with_1000_balance()" classname="banking.AccountTest" time="0.001"/>
   <testcase name="balance_300_decreases_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.001"/>
   <testcase name="balance_increases_by_the_amount_deposited_200()" classname="banking.AccountTest" time="0.001"/>
   <testcase name="apr_0()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="balance_increases_by_the_amount_deposited_200_twice()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="checking_balance_never_go_under_zero_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="balance_200_decreases_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.002"/>
-  <testcase name="saving_balance_never_go_under_zero_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="balance_300_decreases_by_the_amount_withdrawn_200_twice()" classname="banking.AccountTest" time="0.002"/>
-  <testcase name="balance_400_decreases_by_the_amount_withdrawn_300_twice()" classname="banking.AccountTest" time="0.002"/>
+  <testcase name="balance_increases_by_the_amount_deposited_200_twice()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="checking_balance_never_go_under_zero_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="balance_200_decreases_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.001"/>
+  <testcase name="saving_balance_never_go_under_zero_by_the_amount_withdrawn_200()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="balance_300_decreases_by_the_amount_withdrawn_200_twice()" classname="banking.AccountTest" time="0.001"/>
+  <testcase name="balance_400_decreases_by_the_amount_withdrawn_300_twice()" classname="banking.AccountTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

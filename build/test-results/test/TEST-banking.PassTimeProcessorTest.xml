@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.PassTimeProcessorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:38" hostname="SCOTT" time="0.012">
+  <properties/>
+  <testcase name="test_interest_calculation_savings()" classname="banking.PassTimeProcessorTest" time="0.001"/>
+  <testcase name="test_interest_calculation_checking()" classname="banking.PassTimeProcessorTest" time="0.001"/>
+  <testcase name="pass_1_without_account_closure()" classname="banking.PassTimeProcessorTest" time="0.0"/>
+  <testcase name="pass_1_valid_command()" classname="banking.PassTimeProcessorTest" time="0.002"/>
+  <testcase name="pass_2_with_account_closure()" classname="banking.PassTimeProcessorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

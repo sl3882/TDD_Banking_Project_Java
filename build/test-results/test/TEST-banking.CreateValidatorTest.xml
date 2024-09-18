@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CreateValidatorTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:37" hostname="SCOTT" time="0.03">
+  <properties/>
+  <testcase name="create_saving_apr_over_10_percent_invalid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_saving_with_valid_apr()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_cd_initial_balance_at_10000_valid()" classname="banking.CreateValidatorTest" time="0.002"/>
+  <testcase name="create_cd_initial_balance_over_10000()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_cd_initial_balance_under_1000()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_cd_initial_balance_at_1000_valid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_checking_with_negative_apr_invalid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_cd_apr_over_10_percent_invalid()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_checking_apr_over_10_percent_invalid()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_saving_without_apr_invalid()" classname="banking.CreateValidatorTest" time="0.002"/>
+  <testcase name="create_checking_without_apr_invalid()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_cd_with_negative_apr_invalid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_checking_with_nonnumerical_apr_invalid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_cd_without_apr_invalid()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_cd_with_valid_apr()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_checking_with_valid_apr()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_saving_with_nonnumerical_apr_invalid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_cd_with_nonnumerical_apr_invalid()" classname="banking.CreateValidatorTest" time="0.001"/>
+  <testcase name="create_saving_with_negative_apr_invalid()" classname="banking.CreateValidatorTest" time="0.0"/>
+  <testcase name="create_checking_with_apr_exactly_10_valid()" classname="banking.CreateValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

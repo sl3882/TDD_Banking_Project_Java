@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.WithdrawalValidatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:38" hostname="SCOTT" time="0.01">
+  <properties/>
+  <testcase name="invalid_amount_format_is_invalid()" classname="banking.WithdrawalValidatorTest" time="0.001"/>
+  <testcase name="withdraw_500_from_saving_is_valid()" classname="banking.WithdrawalValidatorTest" time="0.001"/>
+  <testcase name="withdraw_negative_amount_is_invalid()" classname="banking.WithdrawalValidatorTest" time="0.001"/>
+  <testcase name="withdraw_0_from_checking_is_valid()" classname="banking.WithdrawalValidatorTest" time="0.0"/>
+  <testcase name="withdraw_0_from_saving_is_valid()" classname="banking.WithdrawalValidatorTest" time="0.001"/>
+  <testcase name="withdraw_whole_amount_from_cd_is_valid()" classname="banking.WithdrawalValidatorTest" time="0.001"/>
+  <testcase name="withdraw_300_from_checking_is_valid()" classname="banking.WithdrawalValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

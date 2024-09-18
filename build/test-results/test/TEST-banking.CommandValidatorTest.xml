@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandValidatorTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-09-18T20:24:37" hostname="SCOTT" time="0.023">
+  <properties/>
+  <testcase name="deposit_command_in_uppercase()" classname="banking.CommandValidatorTest" time="0.01"/>
+  <testcase name="pass_time_command_in_uppercase()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="create_command_typo_invalid()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="deposit_command_typo_is_invalid()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="withdraw_command_with_valid_input()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="pass_time_command_typo_invalid()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="deposit_command_with_valid_input()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="transfer_command_with_nonexistent_destination_account_is_invalid()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="pass_time_command_with_valid()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="transfer_command_typo_is_invalid()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <testcase name="withdraw_command_with_typo_is_invalid()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="create_command_with_valid_input()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="withdraw_command_in_uppercase()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="create_command_in_uppercase()" classname="banking.CommandValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
